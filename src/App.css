@@ -1,0 +1,44 @@
+body {
+  background: #14181f;
+  color: #fff;
+  font-family: sans-serif;
+}
+header {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+}
+header h1 {
+  float: left;
+  width: 75%;
+}
+header a {
+  float: left;
+  width: 25%;
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+a {
+  color: #ff3158;
+}
+iframe {
+  border: 1px solid #333;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+ul#settings {
+  padding: 0;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style: none;
+}
+li {
+  break-inside: avoid-column;
+  padding: 0 0.5rem;
+}
+h2 {
+  font-size: 16px;
+}
